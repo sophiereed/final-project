@@ -1,0 +1,401 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+canvas {
+	display: block;
+}
+
+header {
+	background-color: #000000;
+	height: 100%;
+	overflow: hidden;
+}
+
+.jumbotron-img-color {
+	background-color: #000000;
+	overflow: hidden;
+	height: 100%;
+}
+
+.display-4 {
+	font-size: 60px;
+
+}
+
+.page-title {
+	padding-top: 15px;
+}
+
+.dark-footer {
+	text-align: center;
+	padding: 15px;
+}
+
+.title-chiro {
+	text-align: center;
+	font-size: 50px;
+	color: rgba(110, 165, 222);
+}
+
+.text-chiro {
+	padding: 15px;
+}
+
+.subhead {
+	font-size: 40px;
+}
+
+.subhead2 {
+	font-size: 40px;
+	color: rgba(110, 165, 222);
+
+}
+
+.display-4 {
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.padding {
+	padding: 10px;
+}
+
+.centered {
+	text-align: center;
+}
+
+.no-margin {
+	margin: 0 !important;
+}
+
+.square {
+	border-radius: 0;
+}
+
+
+.flex-container {
+	display: flex;
+	padding: 15px;
+}
+
+.fullimg{
+/* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.blue-back {
+	background-color: rgba(110, 165, 222, 0.2);
+	width: 100%;
+}
+
+.padding {
+	width: 100%;
+}
+
+.row {
+
+	width: 100%;
+}
+
+.card-reference {
+	background-color: rgba(110, 165, 222);
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border: 5px solid;
+	border-radius: 30px;
+}
+
+h4 {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.flex-container2 {
+	padding: 10px;
+}
+
+.product-img {
+	width: 150%;
+	padding: 10px;
+}
+
+.top-img {
+	width: 90%;
+
+}
+
+img .top-img {
+	width: 100%;
+}
+
+.disclaimer {
+	background-color: rgba(110, 165, 222, 0.2);
+	width: 100%;
+	padding: 25px 50px 10px 50px;
+	text-align: center;
+}
+
+h3 {
+	color: rgba(110, 165, 222);
+}
+
+.btn {
+	background-color: rgba(110, 165, 222);
+}
+
+a {
+	color: white;
+}
+
+/* colors */
+
+.white-type {
+	color: #ffffff;
+}
+
+.product-img {
+	overflow: hidden;
+}
+
+/************************/
+
+.accordion {
+	display: none;
+}
+
+/************************/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+section {
+	width: 100%;
+	display: inline-block;
+	background: #ccc;
+	height: 60vh;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.footer-distributed {
+	background-color: rgba(110, 165, 222);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+	padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+	color: #ffffff;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links {
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+	transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: inherit;
+	transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+	content: "·";
+	font-size: 20px;
+	left: 0;
+	color: #ffffff;
+	display: inline-block;
+	padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+	content: none;
+}
+
+.footer-distributed .footer-right {
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+	border-radius: 50%;
+
+}
+
+.footer-distributed .footer-right a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color: #ffffff;
+	border-radius: 2px;
+	font-size: 20px;
+	color: rgba(110, 165, 222);
+	text-align: center;
+	line-height: 35px;
+	margin-left: 3px;
+	transition: all .25s;
+}
+
+.footer-distributed .footer-right a:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+
+.footer-distributed p.footer-links a:hover {
+	text-decoration: underline;
+}
+
+/****************** Media Queries *******************/
+
+@media (max-width: 600px) {
+
+	header {
+		height: 125px;
+	}
+
+	.jumbotron-img-color {
+		height: 100%;
+		padding: 10px;
+
+
+	}
+
+	.display-4 {
+		font-size: 40px;
+		text-align: center;
+
+	}
+
+	.page-title {
+		padding-top: 25px;
+	}
+
+
+	.dark-footer {
+		text-align: center;
+		padding: 25px;
+	}
+
+	.title-chiro {
+		text-align: center;
+		font-size: 35px;
+		padding: 10px;
+		color: rgba(110, 165, 222);
+	}
+
+	.card-body {
+		padding: 0px;
+
+	}
+
+
+	.text-chiro {
+		padding: 10px;
+	}
+
+	.subhead {
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.subhead2 {
+		font-size: 30px;
+		color: rgba(110, 165, 222);
+		text-align: center;
+	}
+
+	.caption {
+		font-size: 12px;
+		text-align: center;
+
+	}
+
+	.flex-container {
+		flex-direction: column-reverse;
+	}
+
+	.top-img {
+		width: 100%;
+	}
+
+
+	.disclaimer {
+		background-color: rgba(110, 165, 222, 0.2);
+		width: 100%;
+		padding: 15px 40px 05px 40px;
+		font-size: 12px;
+		text-align: center;
+	}
+
+	.card-reference {
+		background-color: rgba(110, 165, 222);
+		color: white;
+		padding: 25px;
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.flex-container2 {
+		padding: 20px;
+	}
+
+	h4 {
+		font-size: 25px;
+	}
+
+
+	.buttondiv {
+		padding: 15px;
+	}
+
+	.btn {
+		color: white;
+
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right {
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right {
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links {
+		line-height: 1.8;
+	}
+}
